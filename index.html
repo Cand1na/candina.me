@@ -17,16 +17,17 @@
 <link href="apple-touch-icon.png" rel="apple-touch-icon">
 <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet">
 <!-- Core theme CSS (includes Bootstrap)-->
-<link href="css/styles.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+<!--<link href="css/styles.css" rel="stylesheet">-->
 </head>
 
 <body class="d-flex flex-column h-100">
 <main class="flex-shrink-0"> 
   <!-- Navigation-->
-  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#141524;">
     <div class="container px-5"> <a class="navbar-brand" href="index.html">Candina</a>
       <button aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation" class="navbar-toggler" data-bs-target="#navbarSupportedContent" data-bs-toggle="collapse" type="button"><span class="navbar-toggler-icon"></span></button>
-      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <div class="collapse navbar-collapse" id="navbarSupportedContent" data-bs-theme="dark">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
           <li class="nav-item"> <a class="nav-link" href="index.html">Home</a> </li>
           <li class="nav-item"> <a class="nav-link" href="#about">About</a> </li>
@@ -34,8 +35,8 @@
           <li class="nav-item"> <a class="nav-link" href="#contact">Contact</a> </li>
           <li class="nav-item"> <a class="nav-link" href="https://osu.ppy.sh/users/4284673/">osu! Profile</a> </li>
           <li class="nav-item"></li>
-          <li class="nav-item dropdown"> <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="navbarDropdownBlog" role="button">Socials</a>
-            <ul aria-labelledby="navbarDropdownBlog" class="dropdown-menu dropdown-menu-end">
+          <li class="nav-item dropdown"> <a aria-expanded="false" class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" id="dropdownMenuButtonDark" role="button">Socials</a>
+            <ul aria-labelledby="dropdownMenuButtonDark" class="dropdown-menu dropdown-menu-end">
               <li><a class="dropdown-item" href="https://steamcommunity.com/id/cand1na/"><img alt="..." src="img/social/steam.png" style="width:16px;height:18px;padding-bottom:2px;"> Steam</a></li>
               <li><a class="dropdown-item" href="https://www.reddit.com/user/Candina"><img alt="..." src="img/social/reddit.png" style="width:16px;height:18px;padding-bottom:2px;"> Reddit</a></li>
               <li><a class="dropdown-item" href="https://twitter.com/Cand1na"><img alt="..." src="img/social/twitter.png" style="width:16px;height:18px;padding-bottom:2px;"> Twitter</a></li>
@@ -48,7 +49,7 @@
     </div>
   </nav>
   <!-- Header-->
-  <header class="bg-dark py-0">
+  <header class="py-0" style="background-color:#141524;">
     <div class="container px-5">
       <div class="row gx-5 align-items-center justify-content-center">
         <div class="col-lg-8 col-xl-7 col-xxl-6">
@@ -58,24 +59,24 @@
             <div class="d-grid gap-3 d-sm-flex justify-content-sm-center justify-content-xl-start"> <a class="btn btn-primary btn-lg px-4 me-sm-3" href="#about">About Me</a> <a class="btn btn-outline-light btn-lg px-4" href="https://www.youtube.com/watch?v=tETJK4EG1aY">I want to leave</a> </div>
           </div>
         </div>
-        <div class="col-xl-5 col-xxl-6 d-xl-block text-center"> <img alt="Can deez nuts" width="600" height="400" class="img-fluid rounded-5 my-4" src="img/me.webp"> </div>
+        <div class="col-xl-5 col-xxl-6 d-xl-block text-center"> <img alt="Can deez nuts" width="600" height="400" class="img-fluid rounded-0 my-4" src="img/me.webp"> </div>
       </div>
     </div>
   </header>
   <!-- About Me section-->
-  <section class="py-3 bg-light" id="about">
-    <div class="container px-5 my-5">
+  <section class="py-3" style="background-color:#1D1F34;" id="about">
+    <div class="container px-5 my-5 text-white">
       <div class="row gx-5 justify-content-center">
         <div class="col-lg-8 col-xl-6">
           <div class="text-center">
             <h2 class="fw-bolder">Hi, I'm Katie! &#128075;</h2>
-            <p class="lead fw-normal text-muted mb-5">I have hobbies, such as:</p>
+            <p class="lead fw-normal text-white-50 mb-5">I have hobbies, such as:</p>
           </div>
         </div>
       </div>
       <div class="row gx-5">
         <div class="col-lg-4 mb-5">
-          <div class="card h-100 shadow border-0"> <img alt="..." class="card-img-top" src="img/about/osu.webp">
+          <div class="card h-100 shadow border-0 text-white" style="background-color:#2A2A48;"> <img alt="..." class="card-img-top" src="img/about/osu.webp">
             <div class="card-body p-4">
               <h5 class="card-title mb-3">&#128280; osu!</h5>
               <p class="card-text mb-0">I click circles, or at least try to. I use a Wacom CTL-470 and a Wooting 60HE. <a class="link-danger" href="img/tablet_area.png">This is my tablet area if you're interested.</a></p>
@@ -91,7 +92,7 @@
           </div>
         </div>
         <div class="col-lg-4 mb-5">
-          <div class="card h-100 shadow border-0"> <img alt="..." class="card-img-top" src="img/about/yugioh.webp">
+          <div class="card h-100 shadow border-0 text-white" style="background-color:#2A2A48;"> <img alt="..." class="card-img-top" src="img/about/yugioh.webp">
             <div class="card-body p-4">
               <h5 class="card-title mb-3">&#127924; Yu-Gi-Oh!</h5>
               <p class="card-text mb-0">I play Yu-Gi-Oh! at a somewhat competitive level and have also been a floor judge for officially sanctioned events.</p>
@@ -107,7 +108,7 @@
           </div>
         </div>
         <div class="col-lg-4 mb-5">
-          <div class="card h-100 shadow border-0"> <img alt="..." class="card-img-top" src="img/about/kingdomhearts.webp">
+          <div class="card h-100 shadow border-0 text-white" style="background-color:#2A2A48;"> <img alt="..." class="card-img-top" src="img/about/kingdomhearts.webp">
             <div class="card-body p-4">
               <h5 class="card-title mb-3">&#128273; Kingdom Hearts</h5>
               <p class="card-text mb-0">I'm a longtime Kingdom Hearts fan and speedrunner who is praying that Kingdom Hearts 4 is good.</p>
@@ -125,19 +126,19 @@
     </div>
   </section>
   <!-- Projects section-->
-  <section class="py-3 bg-light" id="projects">
-    <div class="container px-5 my-5">
+  <section class="py-3" style="background-color:#1B1C30;"  id="projects">
+    <div class="container px-5 my-5 text-white">
       <div class="row gx-5 justify-content-center">
         <div class="col-lg-8 col-xl-6">
           <div class="text-center">
             <h2 class="fw-bolder">Projects &#128221;</h2>
-            <p class="lead fw-normal text-muted mb-5">Some stuff I'm working on:</p>
+            <p class="lead fw-normal text-white-50 mb-5">Some stuff I'm working on:</p>
           </div>
         </div>
       </div>
       <div class="row gx-5">
         <div class="col-lg-4 mb-5">
-          <div class="card h-100 shadow border-0">
+          <div class="card h-100 shadow border-0 text-white"  style="background-color:#2A2A48;">
             <video autoplay loop muted width="360" height="216" class="card-img-top" src="img/about/monke.webm"></video>
             <div class="card-body p-4">
               <div class="badge bg-primary bg-gradient rounded-pill mb-2"> 7 </div>
@@ -150,7 +151,7 @@
           </div>
         </div>
         <div class="col-lg-4 mb-5">
-          <div class="card h-100 shadow border-0">
+          <div class="card h-100 shadow border-0 text-white" style="background-color:#2A2A48;">
             <video autoplay loop muted width="360" height="216" class="card-img-top" src="img/about/monke.webm"></video>
             <div class="card-body p-4">
               <div class="badge bg-primary bg-gradient rounded-pill mb-2"> 2 </div>
@@ -163,7 +164,7 @@
           </div>
         </div>
         <div class="col-lg-4 mb-5">
-          <div class="card h-100 shadow border-0">
+          <div class="card h-100 shadow border-0 text-white" style="background-color:#2A2A48;">
             <video autoplay loop muted width="360" height="216" class="card-img-top" src="img/about/monke.webm"></video>
             <div class="card-body p-4">
               <div class="badge bg-primary bg-gradient rounded-pill mb-2"> 7 </div>
@@ -179,9 +180,9 @@
     </div>
   </section>
   <!-- Contact form-->
-  <section class="py-4 bg-light" id="contact">
+  <section class="py-4 text-white" style="background-color:#141524;" id="contact">
     <div class="container px-5">
-      <div class="bg-dark rounded-1 py-5 px-4 px-md-5 mb-5">
+      <div class="rounded-1 py-4 px-4 px-md-4 mb-0" style="background-color:#141524;">
         <div class="text-center mb-0">
           <h2 class="fw-bolder">Contact me! &#128231;</h2>
           <p class="lead fw-normal text-muted mb-0"><a class="link-danger" href="mailto:katie@candina.me">katie@candina.me</a></p>
@@ -191,12 +192,12 @@
   </section>
 </main>
 <!-- Footer-->
-<footer class="bg-dark py-4 mt-auto">
+<footer class="py-4 mt-auto" style="background-color:#141524;">
   <div class="container px-5">
     <div class="row align-items-center justify-content-between flex-column flex-sm-row">
       <div class="col-auto">
         <div class="small m-0 text-white"> 2022-2023, Katie C &middot; Social icons by icons8.com </div>
-        <div class="small m-0 text-white"> <a class="link-dark" href="/ryomybeloved/">Click here if the sentence "I love Ryo Yamada" resonates with you.</a> </div>
+        <div class="small m-0 text-white"> <a class=" link-secondary" href="/ryomybeloved/">Click here if the sentence "I love Ryo Yamada" resonates with you.</a> </div>
       </div>
       <div class="col-auto"> <a class="link-light small" href="https://steamcommunity.com/id/cand1na/">Steam</a> <span class="text-white mx-1">&middot;</span> <a class="link-light small" href="https://www.reddit.com/user/Candina">Reddit</a> <span class="text-white mx-1">&middot;</span> <a class="link-light small" href="https://twitter.com/Cand1na">Twitter</a> <span class="text-white mx-1">&middot;</span> <a class="link-light small" href="https://www.twitch.tv/cand1na">Twitch</a> <span class="text-white mx-1">&middot;</span> <a class="link-light small" href="https://www.youtube.com/channel/UCevxUekO0YMgER4HtwkGd2g">YouTube</a> </div>
     </div>
