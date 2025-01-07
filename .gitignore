@@ -4,3 +4,7 @@
 _notes/
 /bower_components/
 /node_modules/
+.msmtprc
+.api_token
+.profile
+.filebrowser/.quota.json
